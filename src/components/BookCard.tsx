@@ -17,8 +17,8 @@ const BookCard: React.FC<BookCardProps> = ({ id, title, image, price }) => {
           alt={title}
           className="w-full h-32 object-cover mb-2"
         />
-
         <h2 className="font-bold">{title}</h2>
+        <p>${price}</p>
       </Link>
     </div>
   );
